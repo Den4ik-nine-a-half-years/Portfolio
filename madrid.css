@@ -1,0 +1,189 @@
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+h1 a, .main h2 a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.header ul a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #777777;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.texts {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #777777;
+	padding-left: 350px;
+	font-size: 15px;
+}
+
+.test li {
+	list-style: none;
+	padding: 10px;
+	padding-left: 10px;
+	border: 1px solid lightgray;
+	margin-top: -1px;
+}
+
+.main {
+	display: flex;
+}
+
+ul {
+	padding: 0;
+	display: block;
+}
+
+.menu li {
+	list-style: none;
+	padding: 10px;
+	padding-left: 10px;
+}
+
+.test ul {
+	width: 30%;
+}
+
+.text div {
+	width: 70%
+}
+
+.main div {
+	width: 100%;
+}
+
+.calc {
+	border: 1px solid black;
+	width: 300px;
+	margin: 120px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 20%);
+	padding: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.calc button {
+	height: 40px;
+	width: 20%;
+	font-size: 30px;
+	color: white;
+	background: rgb(255, 88, 88);
+}
+
+.calc input {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.calc div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.calc p {
+	margin-bottom: 15px;
+}
+
+.todo {
+	width: 400px; 
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.todo .todo-header {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.todo .todo-header h1 {
+	font-size: 60px;
+	margin: 0;
+	padding-bottom: 10px; 
+}
+
+.todo .todo-header p {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.todo .list li {
+	cursor: pointer;
+	font-size: 18px;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	height: 40px;
+	background: rgb(255, 88, 88);
+}
+
+.todo .clear {
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	color: white;
+	background: rgb(255, 88, 88);
+}
+
+.todo .todo-footer input {
+	margin-bottom: 10px;
+	width: 70%;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	padding: 10px;
+	font-size: 16px;	
+}
+
+.add {
+	background: rgb(255, 88, 88);
+	padding: 11px 25px;
+	color: white;
+	outline: none;
+}
+
+.todo .list li p {
+	width: 90%;
+}
+
+.todo .list li span {
+	margin-right: 10px;
+	text-align: center;
+	width: 0;
+	opacity: 0 5;
+	width: 10%;
+	transition: 0.3s linear;
+}
+
+.todo .list li:hover span {
+	opacity: 1.0;
+}
